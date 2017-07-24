@@ -1,14 +1,11 @@
 ## InterÁgil 2017
 
-Landing page referente ao evento DevConf, primeiro evento do Opensanca.
-
-## Installation
-
-- sudo npm install -g gulp 
-- npm install
-- gulp
+Página referente ao evento InterÁgil 2017.
 
 
-## License
+## Layout Opensource
 
-MIT
+Créditos para:
+
++ http://opensanca.com/
++ https://github.com/opensanca/devconf
