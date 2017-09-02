@@ -46,7 +46,102 @@
           </p>
         </div>
       </div> -->
-      
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="https://www.sympla.com.br/interagil-2017__183655" class="nav__link" target="_blank">
+              Ingressos
+              <img class="nav__item-drop" src="assets/img/arrow-dropdown--dark.svg" alt="your ticket">
+            </a>
+            <nav class="dropdown">
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <a href="https://www.sympla.com.br/interagil-2017__183655" class="nav__link dropdown__link">
+                    <img src="assets/img/trophy.svg" alt="">
+                    <div class="dropdown__link__info">
+                      <h2 class="dropdown__link__title">1º Lote</h2>
+                      <div class="col-md-6">
+                        <i class="fa fa-calendar-o"></i> até 01/10  <br>
+                        <i class="fa fa-money"> R$ 40,00</i> <br>
+                      </div>
+                      <div class="col-md-6">
+                        <button type="button" class="btn btn-success">
+                          Eu quero!
+                        </button>
+                      </div>
+                      <hr>
+                    </div>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="https://www.sympla.com.br/interagil-2017__183655" class="nav__link dropdown__link">
+                    <img src="assets/img/trophy.svg" alt="">
+                    <div class="dropdown__link__info">
+                      <h2 class="dropdown__link__title">2º Lote</h2>
+                      <div class="col-md-6">
+                        <i class="fa fa-calendar-o"></i> até 01/11  <br>
+                        <i class="fa fa-money"> R$ 50,00</i> <br>
+                      </div>
+                      <div class="col-md-6">
+                        <button type="button" class="btn btn-success" disabled="disabled">
+                          Eu quero!
+                        </button>
+                      </div>
+                      <hr>
+                    </div>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="https://www.sympla.com.br/interagil-2017__183655" class="nav__link dropdown__link" target="_blank">
+                    <img src="assets/img/trophy.svg" alt="">
+                    <div class="dropdown__link__info">
+                      <h2 class="dropdown__link__title">3º Lote</h2>
+                      <div class="col-md-6">
+                        <i class="fa fa-calendar-o"></i> até 24/11 <br>
+                        <i class="fa fa-money"> R$ 60,00</i> <br>
+                      </div>
+                      <div class="col-md-6">
+                        <button type="button" class="btn btn-success" disabled="disabled">
+                          Eu quero!
+                        </button>
+                      </div>
+                      <hr>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </li>
+          <li class="nav__item">
+            <a href="#schedule" class="nav__link ">
+              Programação
+              <!-- <span class="nav__tag">
+                <i class="fa fa-star-o"></i>
+              </span> -->
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link ">
+              Sobre
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#sponsor" class="nav__link ">
+              Patrocinadores
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#speaker" class="nav__link ">
+              Palestrantes
+            </a>
+          </li>
+          <li class="nav__item nav__item--divider">
+            <a href="#contact" class="nav__link">
+              Contato
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -102,12 +197,14 @@
             <p> 
             O público previsto para esta edição do evento é de aproximadamente 200 pessoas de toda a região de Araraquara, São Carlos, Campinas, Ribeirão Preto e São José do Rio Preto.
             </p>
-
-            <!-- <p>
+ 			<p>
               <div class="text-center">
-                <a href="https://www.eventick.com.br/devconf" target="_blank" class="button__tertiary" name="button">Garanta sua vaga!</a>
-              </div>
-            </p> -->
+
+                <div id="sympla-widget-183655" height="auto"></div>
+				<script src="https://www.sympla.com.br/js/sympla.widget-pt.js/183655"></script>
+              </div>              
+            </p>
+
           </div>
         </div>
 
@@ -145,10 +242,339 @@
       </div>
     </section>
 
+     <section class="speaker" id="speaker">
+      <div class="wrapper">
+        <h2 class="section-title">Palestrantes...</h2>
+        <br />
+        <p>
+          Submeta sua palestra para palestras@interagil.com conforme modelo até o dia 30/09/2017.
+          <div class="text-center">
+            <a href="modelo-submissao-de-palestras-ou-workshops.docx" target="_blank" class="button__tertiary" name="button">Download do modelo</a>
+          </div>
+        </p>
+        <!--  
+        <div class="speaker__profile">
+          <div class="row">
+            <div class="col-xs-6 col-md-3 partner-logo speaker__profile-info"
+                 data-name="Loiane Groner @Citibank"
+                 data-bio="Possui 10+ anos de experiência em TI, trabalha como desenvolvedora FullStack em uma empresa multinacional e ama compartilhar conhecimento! Já palestrou por vários eventos no Brasil e ministrou cursos nos Estados Unidos. Autora dos livros: Ext JS 4 First Look, Mastering Ext JS (primeira e segunda edição), Sencha Architect App Development e Learning JavaScript Data Structures and Algorithms (primeira e segunda edição), JavaScript Regular Expressions - todos publicados pela editora Packt e lançados mundialmente em inglês (com tradução de alguns livros para chinês e coreano). Espera poder lançar livros em Português em breve. Entusiasta Java, Sencha, Angular e mobile híbrido (Phonegap/Ionic). Participa ativamente dessas comunidades. Escreve para o blog http://loiane.com e publica aulas e cursos em http://loiane.training.">
+              <figure class="thumbnail speaker__grow show-modal-info">
+                <img src="assets/img/loiane_groner.jpg" alt="Loiane Groner"class="img-responsive">
+                <figcaption>
+                  <button type="button"  class="button__speaker-about " name="button">Saiba mais</button>
+                </figcaption>
+              </figure>
+              <div class="speaker__profile-about">
+                <h3 class="text-center"> <a href="#" class="show-modal-info">Loiane Groner @Citibank</a></h3>
+                <p class="hide"></p>
+                <div class="speaker__profile-social">
+                  <a href="https://twitter.com/loiane" target="_blank" class="hidden-xs"><i class="fa fa-twitter"></i> </a>
+                  <a href="https://www.linkedin.com/in/loiane/" target="_blank" class="hidden-xs"><i class="fa fa-linkedin"></i> </a>
+                  <a href="https://github.com/loiane" target="_blank" class="hidden-xs"><i class="fa fa-github"></i> </a>
+                </div>
+              </div>
+            </div> 
 
-    
+        </div>
 
-       
+    </div> 
+  </div> -->
+
+</div> 
+</section>
+ 
+    <section class="schedule" id="schedule">
+      <div class="wrapper">
+        <h2 class="section-title">Agenda</h2>
+
+        <ul class="schedule-items">
+          <li>08:00 - 08:30 | Credenciamento</li>
+          <li>08:30 - 09:30 | Abertura – Key Note</li>
+          <li>
+            <label for="schedule-item-1" class="see-details-link"> 09:30 - 10:15 |
+                Palestra
+
+                <!-- <div class="pull-right">
+                    <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                    <span>|</span>
+                    <a href="https://goo.gl/sdGJ7g" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                </div> -->
+            </label>
+            <input type="checkbox" id="schedule-item-1" class="see-details"/>
+            <p class="details">
+                
+            </p>
+          </li>
+          <li>10:15 - 10:45 | Coffe-break e networking</li>
+          <li>
+            <label for="schedule-item-1" class="see-details-link">
+            10:45 - 11:30 | Palestra
+              <!-- <div class="pull-right">
+                    <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                    <span>|</span>
+                    <a href="https://goo.gl/sdGJ7g" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                </div> -->
+            </label>
+            <input type="checkbox" id="schedule-item-1" class="see-details"/>
+            <p class="details">
+                
+            </p>
+          </li>
+          <li>
+            <label for="schedule-item-3" class="see-details-link">11:30 - 12:15 |
+              Palestra
+
+              <!-- <div class="pull-right">
+                  <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                  <span>|</span>
+                  <a href="https://goo.gl/MiQlwb" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+              </div> -->
+            </label>
+            <input type="checkbox" id="schedule-item-3" class="see-details"/>
+            <p class="details">
+
+            </p>
+          </li>
+          <li>Almoço</li>
+          <li>
+              <label for="schedule-item-4" class="see-details-link">13:10 - 13:45 |
+                  Palestra
+
+                  <!-- <div class="pull-right">
+                      <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                      <span>|</span>
+                      <a href="https://goo.gl/VNZMBo" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                  </div> -->
+              </label>
+              <input type="checkbox" id="schedule-item-4" class="see-details"/>
+              <p class="details">
+
+              </p>
+            </li>
+            <li>
+              <label for="schedule-item-5" class="see-details-link">13:45 - 14:30 |
+                  Palestra
+
+                  <!-- <div class="pull-right">
+                      <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                      <span>|</span>
+                      <a href="https://goo.gl/bm6VYt" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                  </div> -->
+              </label>
+              <input type="checkbox" id="schedule-item-5" class="see-details"/>
+              <p class="details">
+
+              </p>
+            </li>
+            <li>
+              <label for="schedule-item-5" class="see-details-link">14:30 - 15:15 |
+                  Palestra
+
+                  <!-- <div class="pull-right">
+                      <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                      <span>|</span>
+                      <a href="https://goo.gl/bm6VYt" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                  </div> -->
+              </label>
+              <input type="checkbox" id="schedule-item-5" class="see-details"/>
+              <p class="details">
+
+              </p>
+            </li>
+            <li>15:15 - 15:45 | Coffee Break e mais networking</li>
+            <li>
+                <label for="schedule-item-6" class="see-details-link">15:45 - 16:30 |
+                  Palestra
+
+                  <!-- <div class="pull-right">
+                      <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                      <span>|</span>
+                      <a href="https://goo.gl/U0Cp0v" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                  </div> -->
+                </label>
+                <input type="checkbox" id="schedule-item-6" class="see-details"/>
+                <p class="details">
+
+                </p>
+              </li>
+              <li>
+                <label for="schedule-item-7" class="see-details-link">16:30 - 17:15 |
+                    Palestra
+
+                    <!-- <div class="pull-right">
+                        <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                        <span>|</span>
+                        <a href="https://goo.gl/mnuwY2" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                    </div> -->
+                </label>
+                <input type="checkbox" id="schedule-item-7" class="see-details"/>
+                <p class="details">
+
+                </p>
+              </li>
+              <li>
+                17:15 - 17:30 | Encerramento
+            </ul>
+          </div>
+        </section>
+
+
+        <section class="sponsors" id="sponsor">
+          <div class="wrapper">
+            <h2 class="section-title">Patrocinadores</h2>
+
+            <!-- <div class="sponsor-category diamond">
+              <h3 class="text-center">Diamond</h3>
+              <div class="brands__logos">
+                <a href="http://monitoratec.com.br/pt" target="_blank">
+                  <img src="assets/img/monitora.png" alt="Company Monitora">
+                </a>
+                
+
+              </div>
+            </div>
+
+            <div class="sponsor-category gold">
+              <h3 class="text-center">Gold</h3>
+              <div class="brands__logos">
+
+                <a href="http://www.calamar.io/" target="_blank">
+                  <img src="assets/img/calamario.png" alt="Company Calamar">
+                </a>
+                                 
+
+              </div>
+            </div>
+
+            <div class="sponsor-category silver">
+              <h3 class="text-center">Silver</h3>
+                <div class="brands__logos">
+                  <a href="https://docs.google.com/document/d/1hhKhEaR2tgLv3Br_uewAT6zf4LkqyCzFkUva1FEGxfM/edit?usp=sharing" target="_blank" class="btn btn-info btn-lg speaker__grow"> <i class="fa fa-building-o"></i> Sua empresa aqui.</a>
+                </div>
+            </div>
+
+            <div class="sponsor-category bronze">
+              <h3 class="text-center">Bronze</h3>
+                <div class="brands__logos">
+                  <a href="http://luizalabs.com/" target="_blank">
+                  <img src="assets/img/luiza-labs.png" alt="Company Luiza Labs">
+                </a>
+                </div>
+            </div> -->
+            <p class="text-center">
+              <a href="documento-de-patrocinio.pdf" target="_blank" class="button__tertiary">Quero ser um patrocinador!</a>
+              </span>
+          </p>
+        </section>
+
+        <section class="partners" id="partner">
+            <div class="wrapper">
+                <h2 class="section-title">Apoio</h2>
+
+                <div class="partners__logos">
+                    <a href="http://opensanca.com.br" target="_blank">
+                        <img src="assets/img/opensanca.svg" alt="Opensanca"/>
+                    </a>
+                    <!-- <a href="http://www.algaworks.com/" target="_blank">
+                        <img src="assets/img/algaworks.png" alt="Logo Algaworks"/>
+                    </a>
+                    <a href="http://www.ifspsaocarlos.edu.br/portal/" target="_blank">
+                        <img src="assets/img/logo-ifsp.png" alt="Logo IFSP"/>
+                    </a>
+                    <a href="http://www2.ufscar.br/" target="_blank">
+                        <img src="assets/img/logo-ufscar.png" alt="Logo UFSCar"/>
+                    </a> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="googleMaps" id="cd-google-map">
+          <div id="google-container"></div>
+          <div id="cd-zoom-in"></div>
+          <div id="cd-zoom-out"></div>
+          <address>
+            Uniara - Universidade de Araraquara / Rua Carlos Gomes, 1338, Centro / Araraquara-SP / CEP 14801-340
+          </address>
+        </section>
+
+        <section id="contact" class="contact">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="text-center"> Faça contato!</h1>
+                  <p class="text-center"><a href="#">contato.interagil@gmail.com</a></p>
+
+                </div>
+              </div>
+
+              <div class="row hidden-xs">
+                <div class="col-lg-12">
+                  <p class="text-center">
+                  <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/interagil" class="btn btn-default btn-lg" target="_blank">
+                          <i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/araraquarainteragil" class="btn btn-default btn-lg" target="_blank">
+                          <i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                </ul>
+                </p>
+              </div>
+            </div>
+
+
+              </div>
+          </div>
+        </section>
+
+        <footer class="footer" role="contentinfo">
+          <div class="wrapper">
+            <div class="footer__info">
+              <div class="footer__info-brand">
+                <img src="assets/img/logo_transparente.png" alt="InterÁgil 2017">
+                <p>
+                  © InterÁgil 2017
+                </p>
+              </div>
+
+            </div>
+            <div class="footer__contact footer__contact--mobile">
+              <p>Enviar e-mail para</p>
+              <a href="mailto:contato.interagil@gmail.com">
+                contato.interagil@gmail.com
+              </a>
+              <div class="footer__info-social footer__info-social--mobile">
+                <a href="https://twitter.com/interagil" target="_blank">
+                  <img src="assets/img/twitter.svg" class="footer__info-icon" alt="">
+                </a>
+                <a href="https://facebook.com/araraquarainteragil/" target="_blank">
+                  <img src="assets/img/facebook.svg" class="footer__info-icon" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="footer__more">
+              <div class="footer__links">
+                <ul>
+                  <li><a href="codigo-conduta-interagil.html" target="_blank">Código de Conduta InterÁgil 2017</a></li>
+                </ul>
+              </div>
+              <div class="footer__info-social">
+                <a href="https://twitter.com/interagil" target="_blank">
+                  <img src="assets/img/twitter.svg" class="footer__info-icon" alt="">
+                </a>
+                <a href="https://facebook.com/araraquarainteragil" target="_blank">
+                  <img src="assets/img/facebook.svg" class="footer__info-icon" alt="">
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </footer>
 
         <script src="assets/js/jquery-1.12.4.min.js"></script>
         <script src="assets/js/bootstrap.min.js" async="true"></script>
