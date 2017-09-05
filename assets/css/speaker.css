@@ -139,3 +139,10 @@ float: left;
 .button__speaker-about:hover {
     background: #18a56d
 }
+
+.img-circle {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
