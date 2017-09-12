@@ -1,0 +1,132 @@
+<ul class="schedule-items">
+          <li>08:00 - 08:30 | Credenciamento e um pouco de networking</li>
+          <li>08:30 - 09:10 | Abertura – Key Note</li>
+          <li>
+            <label for="schedule-item-1" class="see-details-link"> 09:10 - 09:50 |
+                Como dosar métricas de produto e processo em equipes que trabalham com soluções digitais? | Raphael Albino
+
+                <!-- <div class="pull-right">
+                    <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                    <span>|</span>
+                    <a href="https://goo.gl/sdGJ7g" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                </div> -->
+            </label>
+            <input type="checkbox" id="schedule-item-1" class="see-details"/>
+            <p class="details">
+                
+            </p>
+          </li>
+          <li>09:50 - 10:10 | Coffe-break e networking</li>
+          <li>
+            <label for="schedule-item-1" class="see-details-link">
+            10:10 - 10:50 | Times de alto desempenho e os valores ágeis | Fabio Leme
+              <!-- <div class="pull-right">
+                    <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                    <span>|</span>
+                    <a href="https://goo.gl/sdGJ7g" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                </div> -->
+            </label>
+            <input type="checkbox" id="schedule-item-1" class="see-details"/>
+            <p class="details">
+                
+            </p>
+          </li>
+          <li>
+            <label for="schedule-item-3" class="see-details-link">10:50 - 11:30 |
+              Palestra
+
+              <!-- <div class="pull-right">
+                  <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                  <span>|</span>
+                  <a href="https://goo.gl/MiQlwb" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+              </div> -->
+            </label>
+            <input type="checkbox" id="schedule-item-3" class="see-details"/>
+            <p class="details">
+
+            </p>
+          </li>
+          <li>Almoço</li>
+          <li>
+              <label for="schedule-item-4" class="see-details-link">13:00 - 13:40 |
+                  Palestra
+
+                  <!-- <div class="pull-right">
+                      <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                      <span>|</span>
+                      <a href="https://goo.gl/VNZMBo" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                  </div> -->
+              </label>
+              <input type="checkbox" id="schedule-item-4" class="see-details"/>
+              <p class="details">
+
+              </p>
+            </li>
+            <li>
+              <label for="schedule-item-5" class="see-details-link">13:40 - 14:20 |
+                  Palestra
+
+                  <!-- <div class="pull-right">
+                      <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                      <span>|</span>
+                      <a href="https://goo.gl/bm6VYt" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                  </div> -->
+              </label>
+              <input type="checkbox" id="schedule-item-5" class="see-details"/>
+              <p class="details">
+
+              </p>
+            </li>
+            <li>
+              <label for="schedule-item-5" class="see-details-link">14:20 - 15:00 |
+                  Palestra
+
+                  <!-- <div class="pull-right">
+                      <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                      <span>|</span>
+                      <a href="https://goo.gl/bm6VYt" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                  </div> -->
+              </label>
+              <input type="checkbox" id="schedule-item-5" class="see-details"/>
+              <p class="details">
+
+              </p>
+            </li>
+            <li>15:00 - 15:20 | Coffee Break e mais networking</li>
+            <li>
+                <label for="schedule-item-6" class="see-details-link">15:20 - 16:00 |
+                  Palestra
+
+                  <!-- <div class="pull-right">
+                      <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                      <span>|</span>
+                      <a href="https://goo.gl/U0Cp0v" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                  </div> -->
+                </label>
+                <input type="checkbox" id="schedule-item-6" class="see-details"/>
+                <p class="details">
+
+                </p>
+              </li>
+              <li>
+                <label for="schedule-item-7" class="see-details-link">16:00 - 16:40 |
+                    Palestra
+
+                    <!-- <div class="pull-right">
+                        <a href="" target="_blank" class="schedule-details-link disabled"><i class="fa fa-file-video-o"></i><span>ver vídeo</span></a>
+                        <span>|</span>
+                        <a href="https://goo.gl/mnuwY2" target="_blank" class="schedule-details-link"><i class="fa fa-newspaper-o"></i><span>ver slides</span></a>
+                    </div> -->
+                </label>
+                <input type="checkbox" id="schedule-item-7" class="see-details"/>
+                <p class="details">
+
+                </p>
+              </li>
+              <li>
+                16:40 - 17:20 | Agile Clinic
+              </li>
+              <li>
+                17:20 - 17:30 | Encerramento
+              </li>
+            </ul>
