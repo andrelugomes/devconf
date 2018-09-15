@@ -146,3 +146,38 @@ float: left;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
 }
+
+.button__callfor {
+    border: 0;
+    outline: 0;
+    line-height: 1;
+    text-align: center;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2px;
+    display: inline-block
+}
+
+.button__callfor {
+    letter-spacing: -0.5px;
+    background: #014673;
+    padding: 15px 35px;
+    color: #fff;
+    margin: 35px 0;
+    padding: 18px 32px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition: background .3s,-webkit-box-shadow .3s;
+    transition: background .3s,-webkit-box-shadow .3s;
+    transition: background .3s,box-shadow .3s;
+    transition: background .3s,box-shadow .3s,-webkit-box-shadow .3s
+}
+
+.button__callfor:hover {
+    background: #0162b0;
+    color: #fff;
+}
