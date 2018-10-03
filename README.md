@@ -1,6 +1,6 @@
-## InterÁgil 2017
+## InterÁgil
 
-Página referente ao evento InterÁgil 2017.
+Página referente ao evento InterÁgil.
 
 
 ## Layout Opensource
