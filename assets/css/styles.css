@@ -1175,3 +1175,7 @@ section {
 .modal {
   top: 15%;
 }
+
+.talk {
+  cursor: pointer;
+}

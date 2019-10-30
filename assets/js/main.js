@@ -134,9 +134,16 @@ jQuery(document).ready(function($){
 
 		};
 	};
-
-
-
+	
+	$('.talk').click(function(e){
+		e.preventDefault();
+		const title = $(this).data('title');
+		const text = $(this).data('description');
+		if (!title || !text) return;
+		$('#modal-talks .modal-title').html(title);
+		$('#modal-talks .modal-body').html(text);
+		$('#modal-talks').modal('show', {backdrop: 'static'})
+	});
 
 	//set your google maps parameters
 	var latitude = -22.024110, 
