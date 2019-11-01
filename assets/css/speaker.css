@@ -174,9 +174,11 @@ float: left;
 }
 
 .speaker__profile-info img {
+  background: #FFF;
   border-radius: 50%;
+  height: 274px;
   max-width: 274px;
-  min-width: 217px;
+  object-fit: cover;
   width: 100%;
 }
 
