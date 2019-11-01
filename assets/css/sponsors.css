@@ -1,17 +1,7 @@
 .sponsors {
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #acac4f, #ffffff); //1b1917
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #acac4f, #ffffff);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #acac4f, #ffffff);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #acac4f, #ffffff);
-  /* Standard syntax */
+  background-color: #d2d2d2;
   color: #1b1917;
-
 }
-
 
 .sponsors .section-title {
   margin-bottom: 50px;

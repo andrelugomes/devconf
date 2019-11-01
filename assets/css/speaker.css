@@ -1,13 +1,5 @@
 .speaker {
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #8fd1c4, #acac4f); //951AA1
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #8fd1c4, #acac4f);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #8fd1c4, #acac4f);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #8fd1c4, #acac4f);
-  /* Standard syntax */
+  background-color: #14A085;
   color: #fafafa;
 }
 
@@ -183,4 +175,13 @@ float: left;
 
 .speaker__profile-info img {
   border-radius: 50%;
+  max-width: 274px;
+  min-width: 217px;
+  width: 100%;
+}
+
+@media(max-width: 991px) {
+  .speaker__profile-info img {
+    margin: auto;
+  }  
 }
