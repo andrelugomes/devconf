@@ -176,8 +176,9 @@ float: left;
 .speaker__profile-info img {
   background: #FFF;
   border-radius: 50%;
-  height: 274px;
-  max-width: 274px;
+  height: 214px;
+  min-width: 214px;
+  max-width: 214px;
   object-fit: cover;
   width: 100%;
 }
@@ -185,5 +186,8 @@ float: left;
 @media(max-width: 991px) {
   .speaker__profile-info img {
     margin: auto;
+    height: 247px;
+    min-width: 247px;
+    max-width: 247px;
   }  
 }
