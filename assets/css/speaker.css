@@ -173,6 +173,13 @@ float: left;
     color: #fff;
 }
 
+.speaker__profile-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .speaker__profile-info img {
   background: #FFF;
   border-radius: 50%;
